@@ -12,19 +12,18 @@ Cette première expérience m’a permis de poser des bases solides pour mon exp
 Ce projet se compose de deux parties principales :
 
 ### OpenGL1
-- Chargement et rendu de maillages 3D (objets `.obj` comme Suzanne, cube, octaèdre…).
-- Mise en pratique des modèles d’éclairage **Gouraud** et **Phong**.
-- Gestion des sommets, normales et coordonnées UV.
-- Application de textures statiques et dynamiques (checkerboard ou BMP).
-- Interaction avec la scène via la souris et le clavier.
+- Affichage de formes géométriques simples : cube et octaèdre.
+- Couleurs appliquées par sommet ou par face.
+- Rotation et zoom de la scène avec la souris et le clavier.
+- Manipulation basique de la caméra avec glOrtho.
+- Pas de shaders : rendu fixe via le pipeline OpenGL classique.
 
 ### OpenGL2
-- Ajout de **post-processing** via des framebuffers.
-- Application de shaders avancés et effets artistiques comme le **cell shading**.
-- Possibilité de combiner plusieurs techniques de rendu dans un même projet.
-- Exploration du pipeline graphique moderne (VAO, VBO, shaders).
-
----
+- Gestion de shaders : vertex et fragment shaders pour Phong, Gouraud, cel shading, textures dynamiques, etc.
+- Objets 3D complexes : Suzanne (modèle OBJ) avec normals par vertex ou moyennées.
+- Textures : textures statiques (BMP ou checkerboard) et textures dynamiques générées par shaders.
+- Lumière et matériaux : contrôle des coefficients Ka, Kd, Ks et du shininess, changement du mode d'affichage et déplacement de la lumière.
+- Framebuffers : rendu vers texture pour effets post-processing ou textures dynamiques.
 
 ## Concepts et techniques abordés
 
@@ -45,8 +44,6 @@ Ce projet se compose de deux parties principales :
 - Créer et manipuler des **objets 3D interactifs**.
 - Expérimenter avec différents **shaders et effets visuels**.
 - Acquérir les bases nécessaires pour des projets plus avancés comme **Physci Engine** ou d’autres moteurs 3D.
-
----
 
 ## Prérequis
 
