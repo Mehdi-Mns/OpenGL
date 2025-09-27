@@ -59,7 +59,7 @@ Ce projet se compose de deux parties principales :
 
 1. **Cloner le dépôt**  
    ```bash
-   git clone <URL_DU_DEPOT>
+   git clone https://github.com/Mehdi-Mns/OpenGL.git
    ```
 
 2. **Ouvrir la solution dans Visual Studio**  
