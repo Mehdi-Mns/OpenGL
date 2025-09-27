@@ -12,7 +12,7 @@ Cette première expérience m’a permis de poser des bases solides pour mon exp
 Ce projet se compose de deux parties principales :
 
 ### OpenGL1
-- Affichage de formes géométriques simples : cube et octaèdre.
+- Affichage de formes géométriques simples : triangle, cube et octaèdre.
 - Couleurs appliquées par sommet ou par face.
 - Rotation et zoom de la scène avec la souris et le clavier.
 - Manipulation basique de la caméra avec glOrtho.
@@ -43,7 +43,7 @@ Ce projet se compose de deux parties principales :
 - Comprendre le **pipeline graphique OpenGL**.
 - Créer et manipuler des **objets 3D interactifs**.
 - Expérimenter avec différents **shaders et effets visuels**.
-- Acquérir les bases nécessaires pour des projets plus avancés comme **Physci Engine** ou d’autres moteurs 3D.
+- Acquérir les bases nécessaires pour des projets plus avancés comme **Physic Engine** ou d’autres moteurs 3D.
 
 ## Prérequis
 
